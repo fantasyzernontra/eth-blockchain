@@ -1,0 +1,43 @@
+main {
+  margin-top: 60px;
+}
+
+form {
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+#completedTaskList .content {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.submitButton {
+  background-color: #ff6187;
+  border-color: black;
+  margin: 30px auto;
+  color: #fff;
+}
+
+.submitButton:hover,
+.submitButton:active,
+.submitButton:focus {
+  background-color: #aa4c62;
+}
+
+.deleteButton {
+  background-color: #ee4f4f;
+  border-color: black;
+  margin: 30px auto;
+  color: #fff;
+}
+
+.deleteButton:hover,
+.deleteButton:active,
+.deleteButton:focus {
+  background-color: #ac3131;
+}

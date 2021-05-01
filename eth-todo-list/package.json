@@ -1,0 +1,24 @@
+{
+  "name": "eth-todo-list",
+  "version": "1.0.0",
+  "description": "Blockchain Todo List By Non Nontra",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate-reset": "truffle migrate --reset",
+    "migrate": "truffle migrate"
+  },
+  "author": "Non Nontra",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "nodemon": "^2.0.7",
+    "truffle": "^5.3.4",
+    "truffle-contract": "^4.0.31"
+  }
+}
